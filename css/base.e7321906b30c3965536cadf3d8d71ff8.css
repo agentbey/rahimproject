@@ -1364,7 +1364,6 @@ html {
   font-size: 12px;
   font-size: 0.8571428571428571rem;
   vertical-align: bottom;
-  width: 100%;
   display: inline-block;
 }
 .footer-local .super-footer p,
@@ -2435,4 +2434,3 @@ form .button .btn.simple:focus {
     display: none;
   }
 }
-
