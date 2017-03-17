@@ -1,0 +1,1572 @@
+
+
+
+
+
+
+@import url("/content/dam/sm/cdh/vendor/slick/slick.css");
+@import url("/content/dam/sm/cdh/vendor/slick/slick-theme.css");
+
+html {
+    overflow: auto;
+}
+body {
+    background-color: #FFFFFF;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 992px) {
+    body:before {
+        height: 0;
+    }
+}
+/* Typography
+   ========================================================================== */
+   
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('/content/dam/sm/cdh/fonts/opensans/light.eot');
+    src: url('/content/dam/sm/cdh/fonts/opensans/light.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/sm/cdh/fonts/opensans/light.woff2') format('woff2'),
+        url('/content/dam/sm/cdh/fonts/opensans/light.woff') format('woff'),
+        url('/content/dam/sm/cdh/fonts/opensans/light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('/content/dam/sm/cdh/fonts/opensans/bold.eot');
+    src: url('/content/dam/sm/cdh/fonts/opensans/bold.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/sm/cdh/fonts/opensans/bold.woff2') format('woff2'),
+        url('/content/dam/sm/cdh/fonts/opensans/bold.woff') format('woff'),
+        url('/content/dam/sm/cdh/fonts/opensans/bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('/content/dam/sm/cdh/fonts/opensans/semibold.eot');
+    src: url('/content/dam/sm/cdh/fonts/opensans/semibold.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/sm/cdh/fonts/opensans/semibold.woff2') format('woff2'),
+        url('/content/dam/sm/cdh/fonts/opensans/semibold.woff') format('woff'),
+        url('/content/dam/sm/cdh/fonts/opensans/semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/content/dam/sm/cdh/fonts/opensans/regular.eot');
+    src: url('/content/dam/sm/cdh/fonts/opensans/regular.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/sm/cdh/fonts/opensans/regular.woff2') format('woff2'),
+        url('/content/dam/sm/cdh/fonts/opensans/regular.woff') format('woff'),
+        url('/content/dam/sm/cdh/fonts/opensans/regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MetricLight';
+    src: url('/content/dam/sm/cdh/fonts/metriclight/regular.eot');
+    src: url('/content/dam/sm/cdh/fonts/metriclight/regular.eot?#iefix') format('embedded-opentype'),
+        url('/content/dam/sm/cdh/fonts/metriclight/regular.svg') format('svg'),
+        url('/content/dam/sm/cdh/fonts/metriclight/regular.woff') format('woff'),
+        url('/content/dam/sm/cdh/fonts/metriclight/regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+p,
+.text p {
+    color: #333333;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+}
+.text p a {
+    font-size: 11px;
+    line-height: 15px;
+}
+h2,
+.text h2 {
+    color: #333333;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: left;
+}
+a, a:link, a:active, a.active, a:visited {
+    color: #8C1515;
+}
+a {
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 9px;
+}
+a.arrow {
+    position: relative;
+    padding-left: 27px
+}
+a.arrow:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 12px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    text-rendering: auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+p a.arrow:not(:last-child) {
+    margin-right: 27px;
+}
+@media (min-width: 640px) {
+    a {
+        font-size: 18px;
+    }
+    a.arrow {
+        padding-left: 37px
+    }
+    a.arrow:before {
+        font-size: 22px;
+    }
+    .text h1 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+    .text h2,
+    .feature-box-body h2 {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .text p,
+    .text p a,
+    .feature-box-body p,
+    .hover-info p {
+        font-size: 22px;
+        line-height: 1.5em;
+    }
+}
+@media (min-width: 992px) {
+    .text h2,
+    .feature-box-body h2 {
+        font-size: 62px;
+        line-height: 84px;
+    }
+    .text p,
+    .text p a,
+    .feature-box-body p,
+    .hover-info p {
+        font-size: 15px;
+        line-height: 1.5em;
+        margin: 0 0 15px;
+    }
+}
+
+
+/* Containers
+   ========================================================================== */
+
+#outerContainer {
+    background-color: #FFF;
+}
+#mainContent {
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.row,
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, 
+.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+.col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, 
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12,
+.parbase.section.panel_builder,
+.parbase.section.simple-banner,
+.parbase.section.news-builder,
+.parbase.section.text,
+.parbase.section.panel_builder .section,
+.parbase.section.simple-banner .section {
+    margin: 0;
+    padding: 0;
+}
+.parbase.section.panel_builder {
+    clear: both;
+}
+
+
+
+.parbase.section.panel_builder .section.text-image {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.standard-layout { /* Standard page */
+    padding: 20px 15px;
+}
+.standard-layout .parbase.section.panel_builder .col-sm-6.panel-builder-50-col {
+    padding-right: 12px;
+    padding-right: 0.8571428571428571rem;
+}
+
+@media (min-width: 640px) {
+    .standard-layout { /* Standard page */
+        padding: 40px 30px;
+    }    
+}
+@media (min-width: 992px) {
+    .standard-layout { /* Standard page */
+        padding: 4.8% 10%;
+    }    
+}
+
+.anchor-container {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    width: 0;
+}
+
+
+
+/* Header
+   ========================================================================== */
+
+.brand {
+    margin-bottom: 0;
+}
+.header-global {
+    display: none;
+    height: 0px
+    margin: 0px;
+    min-height: 0px;    
+}
+.navbar-global {
+    display: none;
+}
+.header-global-offset.header-local {
+    background: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin: 0 auto;
+    min-height: 0px;
+    position: absolute;
+    width: 100%;
+}
+.nav-outer.section nav.navbar-dropdown-mckinley {
+    position: relative;
+}
+.header-local .navbar-toggle { /* Hamburger nav on mobile */
+    background-color: transparent;
+}
+
+
+/* Custom Menu
+   ========================================================================== */
+
+.header-local .navbar-toggle {
+    display: none; /* We don't have sub pages to display in the left slide out menu */
+}
+.nav-outer.section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    display: block;
+}
+.nav-outer.section .navbar-dropdown-mckinley > .nav > li.nav-item {
+    border: none;
+    clear: none;
+    height: 75px !important;
+    padding-right: 0;
+    width: initial;
+}
+.nav-outer.section .navbar-dropdown-mckinley {
+    height: 75px;
+    left: 41%;
+    /*margin-top: 0px; This aligns with logo but for now will add 12px to prevent text on dark background on smaller widths*/
+    margin-top: -15px;
+    position: absolute;
+    width: initial;
+}
+.nav-outer.section .navbar-dropdown-mckinley > .nav > li.nav-item a {
+    color: #000000;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 19px;
+    height: 75px !important;
+    padding: 45px 24px 0 0;
+    text-align: center;
+}
+.nav-outer.section ul li:after {
+    display: none;
+}
+.nav-outer.section .navbar-dropdown-mckinley > .nav > li.nav-item a:hover {
+    background-color: transparent;
+}
+
+@media(max-width: 1200px) {
+    .brand-logo {
+        width: 45px;
+        width: 3.2142857142857144rem;
+        height: 45px;
+        height: 3.2142857142857144rem;
+        margin-right: 0;
+        border-right: none;
+    }
+    .nav-outer.section .navbar-dropdown-mckinley {
+        left: 31%;
+    }
+    .nav-outer.section .navbar-dropdown-mckinley > .nav > li.nav-item a {
+        padding: 45px 19px 0 0;
+    }
+}
+
+
+/* Images
+   ========================================================================== */
+
+.adaptiveimage.section div.image img {
+    width: 100%;
+    max-width: 100%;
+}
+.text-image .image-container .image {
+    margin: 0;
+}
+.text-image .image-container .image img {
+    width: 100%;
+}
+
+/* Form Elements
+   ========================================================================== */
+
+.form-control {
+    color: #909090;
+    font-size: 9px;
+}
+#email-signup-form .checkbox {
+    margin-bottom: 15px;
+    padding-left: 0;
+}
+#email-signup-form .checkbox input[type="checkbox"] {
+    float: left;
+    margin: 3px 8px 0 0;
+}
+.checkbox label {
+    color: #909090;
+    font-family: 'MetricLight', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-left: 22px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'MetricLight', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'MetricLight', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'MetricLight', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'MetricLight', sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+@media (min-width: 640px) {
+    .form-control {
+        font-size: 16px;
+    }
+    #email-signup-form .checkbox {
+        margin-bottom: 30px;
+    }
+    .checkbox label {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-size: 16px;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-size: 16px;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-size: 16px;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        font-size: 16px;
+    }
+}
+@media (min-width: 992px) {
+    #email-signup-form .checkbox {
+        margin-bottom: 40px;
+    }
+}
+
+    
+
+
+/* Hero
+   ========================================================================== */
+
+.cdh-home-hero:before {
+    /*background-color: #333E47;*/
+}
+.cdh-home-hero .parbase.adaptiveimage.section:first-child {
+    display: none;
+}
+.cdh-home-hero .parbase.section.text div {
+    padding: 22% 37% 30px 20px;
+}
+.cdh-home-hero .adaptiveimage.section {
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    width: 100%;
+}
+.cdh-home-hero .parbase.section.text {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+}
+.cdh-home-hero h2 {
+    color: #333333;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+
+.cdh-home-carousel .infobox-heading-wrapper .hero-banner-more-link span {
+    color: #8C1515;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+
+@media (min-width: 640px) {
+    .cdh-home-hero .parbase.section.text div {
+        padding: 22% 42% 55px 28px;
+    }
+    .cdh-home-hero h2 {
+        font-size: 46px;
+
+        line-height: 58px;
+        margin-bottom: 30px;
+    }
+    .cdh-home-hero p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+}
+@media (min-width: 768px) {
+    .cdh-home-hero .parbase.section.text div {
+        margin: 12.9% 11.8% 0 11.8%;
+        padding: 0;
+        width: 48%;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-hero .parbase.section.text div {
+        width: 34%;
+    }
+    .cdh-home-hero .parbase.adaptiveimage.section:first-child {
+        display: block;
+    }
+    .cdh-home-hero .parbase.adaptiveimage.section:nth-child(2) {
+        display: none;
+    }
+}
+@media (min-width: 1440px) {
+    .cdh-home-hero h2 {
+        font-size: 62px;
+        line-height: 84px;
+        margin-bottom: 50px;
+    }
+    .cdh-home-hero p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+}
+
+/* Overview
+   ========================================================================== */
+
+.cdh-home-overview .parbase.section.text div {
+    margin: 25px 30px 37px 30px;
+}
+.cdh-home-overview .parbase.section.text h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+    margin: 0 0 25px 0;
+}
+.cdh-home-overview .parbase.section.text p {
+    text-align: center;
+}
+@media (min-width: 640px) {
+    .cdh-home-overview .parbase.section.text div {
+        margin: 55px 60px 75px 60px;
+    }
+    .cdh-home-overview .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 55px 0;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-overview .parbase.section.text div {
+        margin: 70px 170px 60px 170px;
+    }
+    .cdh-home-overview .parbase.section.text h1 {
+        margin: 0 0 30px 0;
+    }
+}
+
+
+/* Pillar (Accordion)
+   ========================================================================== */
+
+.accordion .panel-group .panel:first-child .tab-text p::before {
+    content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-researching-real-solutions.jpg');
+    height: 38px;    
+    width: 21px;
+}
+.accordion .panel-group .panel:nth-child(2) .tab-text p::before {
+    content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-disseminating-shared-learnings.jpg');
+    height: 38px;    
+    width: 50px;
+}
+.accordion .panel-group .panel:nth-child(3) .tab-text p::before {
+    content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-giving-guidance.jpg');
+    height: 38px;    
+    width: 33px;
+}
+.cdh-home-accordion .panel-group .panel {
+    background-color: #8C1515;
+}
+
+.cdh-home-accordion.accordion-container .panel .panel-heading > [data-toggle=collapse]:hover, .cdh-home-accordion .panel .panel-heading > [data-toggle=collapse]:focus {
+    background-color: #8C1515 !important;
+}
+.cdh-home-accordion.accordion-container .panel {
+    border: none;
+    border-bottom: 1px #FFFFFF solid;
+}
+.accordion .cdh-home-accordion [data-toggle=collapse]:before, .accordion .accordion-btn-toggle:before {
+    display: none;
+}
+.cdh-home-accordion .tab-text p::before {
+    margin-right: 17px;
+}
+.cdh-home-accordion .tab-text  p {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;        
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+.cdh-home-accordion .panel-heading a:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px #8C1515;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+.cdh-home-accordion .panel-body {
+    border: 0 !important;
+    padding: 0;
+}
+.cdh-home-accordion .panel-body .text-image .image-container {
+    padding: 0;
+}
+.cdh-home-accordion .panel-body .text-image .text {
+    margin: 24px auto 28px auto;
+    width: 92%;
+}
+.cdh-home-accordion .panel-body .text-image .text h2 {
+    font-size: 23px;
+    line-height: 28px;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+.cdh-home-accordion .panel-body .text-image .text p {
+    margin: 0 0 18px 0;
+}
+@media (min-width: 640px) {
+    .cdh-home-accordion .panel-body .text-image .text {
+        margin: 46px auto 58px auto;
+    }
+    .cdh-home-accordion .panel-body .text-image .text h2 {
+        font-size: 46px;
+        line-height: 58px;
+        margin-bottom: 36px;
+    }
+    .cdh-home-accordion .panel-body .text-image .text p {
+        margin-bottom: 40px;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-accordion {
+        display: none;
+    }
+}
+
+/* Pillar (Tabs)
+========================================================================== */
+
+.cdh-home-tabs {
+    display: none;
+}
+@media (min-width: 992px) {
+    .cdh-home-tabs {
+        display: block;
+    }
+    .cdh-home-tabs .tab-content {
+        padding: 118px 11.8% 70px 11.8%;
+    }
+    .cdh-home-tabs .text {
+        padding-right: 5%;
+    }
+    .cdh-home-tabs .text-image.row {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;        
+    }
+    .cdh-home-tabs h2 {
+        margin-bottom: 50px;
+        text-align: left;
+    }
+    .cdh-home-tabs p {
+        margin-bottom: 30px;
+    }
+    .cdh-home-tabs .nav-tabs {
+        padding: 0 80px;
+        border: 0;
+    }
+
+    .cdh-home-tabs li.active {
+        background-color: #8C1515;
+    }
+    .cdh-home-tabs li.active:after {
+        content:'';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -10px;
+        width: 0;
+        height: 0;
+        border-top: solid 10px #8C1515;
+        border-left: solid 10px transparent;
+        border-right: solid 10px transparent;
+    }
+    .cdh-home-tabs .nav-tabs li {
+        border-top: 1px solid #E1E3E4;
+        border-left: 1px solid #E1E3E4;
+        border-bottom: 1px solid #E1E3E4;
+        width: 33%;
+    }
+    .cdh-home-tabs .nav-tabs li a:hover {
+        background-color: transparent;   
+    }
+    .cdh-home-tabs .nav-tabs li.active a:hover {
+        border: 0;
+    }
+
+    .cdh-home-tabs .nav-tabs li:nth-child(3) {
+        border-right: 1px solid #E1E3E4;
+    }
+    .cdh-home-tabs .nav-tabs .tab-text {
+        border-bottom: transparent;
+    }
+    .cdh-home-tabs .nav-tabs li.active .tab-text .title {
+        color: #FFFFFF;
+    }
+    .cdh-home-tabs .nav-tabs li .tab-text .title::before {
+        margin-right: 17px;
+    }
+    .cdh-home-tabs .nav-tabs li:first-child .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-researching-real-solutions.jpg');
+        height: 38px;    
+        width: 21px;
+    }
+    .cdh-home-tabs .nav-tabs li:nth-child(2) .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-disseminating-shared-learnings.jpg');
+        height: 38px;    
+        width: 50px;
+    }
+    .cdh-home-tabs .nav-tabs li:nth-child(3) .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-giving-guidance.jpg');
+        height: 38px;    
+        width: 33px;
+    }
+    .cdh-home-tabs .nav-tabs li.active:first-child .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-researching-real-solutions.jpg');
+        height: 38px;    
+        width: 21px;
+    }
+    .cdh-home-tabs .nav-tabs li.active:nth-child(2) .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-disseminating-shared-learnings.jpg');
+        height: 38px;    
+        width: 50px;
+    }
+    .cdh-home-tabs .nav-tabs li.active:nth-child(3) .tab-text .title::before {
+        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-giving-guidance.jpg');
+        height: 38px;    
+        width: 33px;
+    }
+    .cdh-home-tabs .title {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #333333;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;        
+        font-family: 'OpenSans', sans-serif;
+        font-size: 13px;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        text-transform: none;
+    }
+    .cdh-home-tabs .nav-tabs > li > a {
+        margin-right: 0;
+        line-height: normal;
+        border: 0;
+        border-radius: 0;
+    }
+    .cdh-home-tabs .nav-tabs li a[role="tab"], .tabs .nav-tabs li a[role="tab"]:link, .tabs .nav-tabs li a[role="tab"]:visited {
+        padding: 1.39% 3.13%;
+    }
+
+}
+@media (min-width: 1440px) {
+    .cdh-home-tabs .title {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+}
+
+
+
+
+
+
+
+/* Connect With Us
+========================================================================== */
+
+.cdh-home-connect .form-group {
+    margin: 0;
+}
+.cdh-home-connect .form-control {
+    border: 0;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    box-shadow: none;
+}
+.cdh-home-connect .panel-builder-50-col {
+    max-width: 100%;
+    padding: 0;
+}
+.cdh-home-connect .parbase.section.text h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+    margin: 0 0 22px 0;
+}
+.cdh-home-connect .panel-builder-50-col .feature-box h2 {
+    margin-bottom: 27px;
+}
+.cdh-home-connect .panel-builder-50-col .feature-box p {
+    margin-bottom: 15px;
+}
+.cdh-home-connect .panel-builder-50-col.panel-builder-left .feature-box:nth-child(1) h2 {
+    color: #333333;
+}
+.cdh-home-connect .panel-builder-50-col.panel-builder-right .feature-box:nth-child(1) h2,
+.cdh-home-connect .panel-builder-50-col.panel-builder-right .feature-box:nth-child(1) p,
+.cdh-home-connect .panel-builder-50-col.panel-builder-right .feature-box:nth-child(1) a {
+    color: #FFFFFF;
+}
+.cdh-home-connect .panel-builder-50-col .feature-box .feature-box-body,
+.cdh-home-connect .panel-builder-50-col .feature-box .feature-box-body {
+    padding: 35px 20px;
+}
+.cdh-home-connect .panel-builder-50-col.panel-builder-left {
+    border-top: 1px solid #E1E3E4;
+    border-left: 1px solid #E1E3E4;
+    border-right: 1px solid #E1E3E4;
+}
+.cdh-home-connect {
+    margin: 35px 15px 30px 15px;
+}
+
+
+@media (min-width: 640px) {
+    .cdh-home-connect {
+        margin: 70px 15px 70px 15px;
+    }
+    .cdh-home-connect .panel-builder-50-col .feature-box .feature-box-body,
+    .cdh-home-connect .panel-builder-50-col .feature-box .feature-box-body {
+        padding: 70px 40px;
+    }
+    .cdh-home-connect .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 45px 0;
+    }
+}
+@media (max-width: 992px) {
+    .cdh-home-connect .panel-builder-50-col {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+
+
+.cdh-home-connect .panel-builder-50-col .feature-box-container,
+.cdh-home-connect .panel-builder-50-col.panel-builder-left {
+    background: none;
+}
+
+.cdh-home-connect .panel-builder-50-col.panel-builder-right {
+    background-color: #8C1515;
+}
+
+
+@media (min-width: 992px) {
+    .cdh-home-connect {
+        margin: 4.8% 10%;
+    }
+    .cdh-home-connect-boxes > .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .cdh-home-connect-boxes > [class*='col-'] {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .cdh-home-connect .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 50px 0;
+    }
+    .cdh-home-connect .panel-builder-50-col.panel-builder-left {
+        border-top: 1px solid #E1E3E4;
+        border-left: 1px solid #E1E3E4;
+        border-bottom: 1px solid #E1E3E4;
+        border-right: 0;
+    }
+}
+
+
+
+
+/* Our Team
+========================================================================== */
+
+.cdh-home-team .parbase.adaptiveimage.section:first-child {
+    display: none;
+}
+.cdh-home-team .parbase.section.text div {
+    margin: 35px 57px 40px 57px;
+}
+.cdh-home-team .parbase.section.text h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 16px 0;
+    text-align: left;
+}
+.cdh-home-team .parbase.section.text p {
+    margin-bottom: 30px;
+}
+@media (min-width: 640px) {
+    .cdh-home-team .parbase.section.text div {
+        margin: 70px 114px;
+    }
+    .cdh-home-team .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 30px 0;
+    }
+    .cdh-home-team .parbase.section.text p {
+        margin-bottom: 60px;
+    }
+}
+@media (min-width: 768px) {
+    
+
+}
+@media (min-width: 992px) {
+    .cdh-home-team .parbase.adaptiveimage.section:first-child {
+        display: block;
+    }
+    .cdh-home-team .parbase.adaptiveimage.section:nth-child(2) {
+        display: none;
+    }
+    .cdh-home-team .parbase.section.text {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        left: 11.8%;
+        position: absolute;
+        top: 0;
+        width: 31%;
+        z-index: 1;
+    }
+    .cdh-home-team .parbase.section.text div {
+        margin: 0;
+    }
+    .cdh-home-team .parbase.section.text h1 {
+        margin: 0 0 50px 0;
+    }
+}
+
+/* News (Feature Box)
+========================================================================== */
+
+.cdh-home-news .panel-builder-33-col .feature-box .feature-box-body h2 span {
+    color: #666666;
+    display: block;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.cdh-home-news .panel-builder-33-col .feature-box .feature-box-body h2 {
+    color: #333333;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    margin-top: 22px;
+    text-align: left;
+}
+.cdh-home-news .panel-builder-33-col .feature-box .feature-box-body p {
+    color: #666666;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.cdh-home-news .parbase.panel_builder.section .row .panel-builder-33-col {
+    padding: 0 0 0 12px;
+}
+
+.cdh-home-news {
+    padding: 0 0 22px 0;
+}
+
+@media (min-width: 640px) {
+    .cdh-home-news {
+        padding: 0 0 45px 0;
+    }
+    .cdh-home-news .panel-builder-33-col .feature-box .feature-box-body p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-news {
+        padding: 0 10% 70px 10%;
+    }
+}
+
+
+
+
+/* News (News List Component)
+========================================================================== */
+
+.parbase.section.news-builder ul.news {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.color-row.white-bg.cdh-home-news:before,
+.parbase.section.news-builder {
+    background-color: #F3F3F5;
+}
+.cdh-home-news .parbase.section.text div {
+    margin: 35px 0 30px 0;
+}
+.cdh-home-news .parbase.section.text h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+}
+.news-builder ul.news {
+    overflow: visible;
+}
+.parbase.section.news-builder .newsfeed-item {
+    background-color: #FFFFFF;
+    padding: 0;
+}
+.parbase.section.news-builder .newsfeed-item .col-sm-8 {
+    padding: 3%;
+}
+.parbase.section.news-builder .newsfeed-item .newsfeed-item-footer {
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    color: #666666;
+    text-align: left;
+    font-family: 'OpenSans-Light', sans-serif;
+}
+.parbase.section.news-builder .newsfeed-item h3 {
+    color: #333333;
+    font-family: 'OpenSans-Semibold', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-align: left;
+}
+.parbase.section.news-builder .newsfeed-item p {
+    color: #666666;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: left;
+}
+.parbase.section.news-builder .newsfeed-item hr {
+    display: none;
+}
+.parbase.section.news-builder {
+    padding: 0 0 22px 0;
+}
+@media (min-width: 640px) {
+    .cdh-home-news .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+    }
+}
+
+@media (min-width: 768px) {
+    .parbase.section.news-builder .newsfeed-item h3 {
+        margin-top: 60px;
+    }
+    .parbase.section.news-builder .newsfeed-item .newsfeed-item-footer {
+        margin-top: 30px;
+        position: absolute;
+        top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-news .parbase.section.text h1 {
+        
+    }
+}
+
+
+
+/*
+ * News Feed
+ */
+
+ul.news li.newsfeed-item {
+    float: left;
+    margin: 0;
+    margin: 0 0.8571428571428571rem 0 0.8571428571428571rem;
+    width: 33.33333333333333%;
+}
+ul.news li.newsfeed-item > div {
+    width: 100%;
+}
+
+
+@media (min-width: 640px) {
+    .cdh-home-news .parbase.section.text div {
+        margin: 44px 0 40px 0;
+    }
+    .parbase.section.news-builder {
+        padding: 0 0 45px 0;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-news .parbase.section.text div {
+        margin: 70px 0 50px 0;
+    }
+    .parbase.section.news-builder {
+        padding: 0 10% 70px 10%;
+    }
+    .cdh-home-news .parbase.section.text h1 {
+        margin: 70px 0 50px 0;
+    }
+}
+
+/* Donate
+========================================================================== */
+
+.cdh-home-donate .col-sm-12  {
+    background-image: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/mobile/donate-min.jpg');
+}
+.cdh-home-donate .parbase.section.text div {
+    margin: 32px 12px;
+}
+.cdh-home-donate .parbase.section.text h1 {
+    color: #FFFFFF !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 18px 0;
+}
+.cdh-home-donate .parbase.section.text p {
+    color: #FFFFFF;
+    text-align: center;
+}
+.cdh-home-donate .parbase.section.text a {
+    color: inherit;
+}
+@media (min-width: 640px) {
+    .cdh-home-donate .parbase.section.text div {
+        margin: 65px 24px;
+    }
+    .cdh-home-donate .parbase.section.text h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 40px 0;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-donate .col-sm-12  {
+        background-image: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/desktop/donate-min.jpg');
+    }
+    .cdh-home-donate .parbase.section.text div {
+        margin: 84px 10%;
+    }
+}
+
+
+/* Footer
+========================================================================== */
+
+#footer .footer-local .rich-footer .simple-footer {
+    display: none;
+}
+#footer footer.footer-global {
+    display: none;
+}
+#footer .footer-local .rich-footer {
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+
+.cdh-footer-nav .navbar > .nav {
+    width: initial;
+}
+
+.cdh-footer-nav .nav-outer.section .navbar-dropdown-mckinley {
+    left: initial;
+    position: relative;
+}
+
+.cdh-social-links {
+    display: block;
+}
+
+.cdh-social-links2 {
+    width:100%;
+	text-align:center;
+	margin: 70px 0 0 0;
+}
+
+
+
+/* Team Page
+========================================================================== */
+
+.cdh-main-banner {
+    margin-top: 97px;
+}
+.cdh-main-banner .parbase.section.text,
+.cdh-main-banner .section.text-image .text-image.row {
+    background-color: #8C1515;
+    position: relative;
+}
+.cdh-main-banner .parbase.section.text h1,
+.cdh-main-banner .section.text-image .text-image.row .text h1 {
+    color: #FFFFFF !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 23px;
+    line-height: 25px;
+    margin: 0 0 1rem 0;
+    text-align: left;
+}
+.cdh-main-banner .parbase.section.text,
+.cdh-main-banner .section.text-image .text-image.row .text {
+    padding: 2.5%;
+}
+
+
+
+.cdh-main-banner .parbase.section.text p,
+.cdh-main-banner .section.text-image .text-image.row .text p {
+    color: #FFFFFF;
+}
+@media (min-width: 992px) {
+    .cdh-main-banner .section.text-image .text-image.row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cdh-main-banner .section.text-image .text-image.row .text {
+        padding: 2%;
+    }
+}
+
+
+.cdh-team-page .parbase.section.text h1 {
+    margin: 25px 0 0 0;
+}
+
+
+@media (min-width: 640px) {
+    .cdh-team-page .parbase.section.text h1 {
+        margin: 55px 0 0 0;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .cdh-team-page .parbase.section.text h1 {
+        margin: 70px 0 0 0;
+    }
+}
+
+.cdh-team-photo .parbase.section.text {
+    text-align: center;
+}
+
+.cdh-team-photo .image.adaptiveimage.parbase.section .sm-image {
+    background: none;
+}
+.cdh-team-photo .image.adaptiveimage.parbase.section .sm-image .caption-container {
+    position: absolute;
+    background: rgba(140,21,21, 0.7);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+    transform: scale(0);
+}
+.cdh-team-photo .image.adaptiveimage.parbase.section .sm-image .caption-container .caption {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cdh-team-photo .sm-image.caption .caption .hover-info p {
+    color: #FFF;
+    text-align: center;
+}
+.cdh-team-photo .image.adaptiveimage.parbase.section {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    transition: all 0.4s ease-in-out;
+    padding: 0 18%;
+}
+.cdh-team-photo .image.adaptiveimage.parbase.section .sm-image:hover .caption-container {
+    transform: scale(1);
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .cdh-team-photo {
+        padding: 4.8% 10%;
+    }
+    .cdh-team-photo .image.adaptiveimage.parbase.section {
+        
+    }
+}
+
+.hero-banner-container.cdh-home-carousel .rsDefault .rsContent .container,
+.hero-banner-container.cdh-home-carousel .rsDefault .rsContent .image {
+    max-width: 50%;
+}
+.hero-banner-container.cdh-home-carousel .rsDefault .rsContent .image img {
+    height: inherit;
+    width: initial;
+}
+
+.hero-banner-container.cdh-home-carousel .rsDefault .rsContent {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.hero-banner-container.cdh-home-carousel .rsDefault .rsContent .hero-banner-infobox-container {
+    padding: initial;
+    position: initial;
+    margin: initial;
+}
+
+
+
+.cdh-home-carousel {
+    background: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/desktop/opportunities-min.jpg');
+    padding: 160px 170px;
+}
+
+
+.cdh-home-carousel .infobox-heading-wrapper h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 16px 0;
+    text-align: left;
+}
+.cdh-home-carousel .infobox-heading-wrapper span {
+    background: none;
+    color: #333333;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: left;
+    text-shadow: none;
+}
+.cdh-home-carousel .infobox-heading-wrapper p {
+    background: none;
+    color: #333333;
+    font-family: 'OpenSans-Light', sans-serif;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: left;
+    text-shadow: none;
+}
+
+@media (min-width: 640px) {
+    .cdh-home-carousel .infobox-heading-wrapper h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 50px 0;
+    }
+}
+@media (min-width: 992px) {
+    .cdh-home-carousel .infobox-heading-wrapper span {
+        color: #666666;
+        font-size: 62px;
+        line-height: 84px;
+    }
+}
+.cdh-home-carousel {
+    display: none;
+}
+@media (min-width: 1200px) {
+    .cdh-home-carousel {
+        display: block;
+    }
+    .cdh-home-opportunities {
+        display: none;
+    }
+}
+.cdh-home-opportunities:before  {
+    background-image: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/mobile/opportunities-min.jpg');
+}
+
+.cdh-home-opportunities {
+    padding: 35px 15% 30px 15%;
+}
+
+.cdh-home-opportunities h1 {
+    color: #871515 !important;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 35px 0;
+}
+.cdh-home-opportunities h2 {
+    text-align: left;
+}
+
+@media (min-width: 640px) {
+    .cdh-home-opportunities {
+        padding: 70px 15% 86px 15%;
+    }
+    .cdh-home-opportunities h1 {
+        font-size: 45px;
+        line-height: 52px;
+        margin: 0 0 70px 0;
+    }
+}
+
+
+
+.cdh-team-listing .section.text ul li {
+    width: 100%;
+    margin: 0;
+    float: left;
+    clear: none;
+    padding: 0 0 0 8px;
+}
+
+.cdh-team-listing .section.text ul li:after {
+    border-bottom: 0;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .cdh-team-listing .section.text ul li {
+        width: 31.333%;
+        margin: 0 1%;
+    }    
+}
+
+@media (min-width: 1200px) {
+    .cdh-team-listing .section.text ul li {
+        width: 23%;
+        margin: 0 1%;
+    }    
+}
+
+
+@media (min-width: 992px) {
+    .cdh-team-listing {
+        padding: 0 10% 4.8% 10%;
+    }
+}
+
+
+.cdh-home-tabs, .cdh-home-accordion {
+    /*display: none;*/
+}
+
+
+#main_panel_builder_439146879_panel_0_panel_builder_panel_0_panel_builder_panel_0_text {
+    margin-right: 30px;
+}
+
+.cdh-home-hero .parbase.adaptiveimage.section:first-child div.image {
+ 	background-color: #fcfbf7;
+	height: 0;
+ 	overflow: hidden;
+ 	padding-bottom: 57.5859178541492%;
+ 	position: relative;
+}
+
+.cdh-home-hero .parbase.adaptiveimage.section:nth-child(2) div.image {
+	background-color: #fcfbf7;
+	height: 0;
+ 	overflow: hidden;
+ 	padding-bottom: 86.50306748466258%;
+ 	position: relative;
+}

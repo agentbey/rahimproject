@@ -1,0 +1,452 @@
+/* SM.K2.Text: text.less */
+/******************** Style overrides for the K2 text component *************************/
+.text h1,
+.text h2 {
+  font-weight: 200;
+  text-align: center;
+}
+.text h1 {
+  font-size: 45px;
+  font-size: 3.2142857142857144rem;
+  font-weight: 200 !important;
+  color: #333333 !important;
+}
+.text h2 {
+  font-size: 36px;
+  font-size: 2.5714285714285716rem;
+}
+.text h2.feature {
+  font-size: 45px;
+  font-size: 3.2142857142857144rem;
+}
+.text h2.simple {
+  font-size: 30px;
+  font-size: 2.142857142857143rem;
+  text-align: left;
+}
+.text h2.modern {
+  font-size: 36px;
+  font-size: 2.5714285714285716rem;
+  text-align: center;
+  font-weight: 200;
+}
+.text h2:after {
+  display: none;
+}
+.hero-banner-container .hero-banner-infobox .text h1,
+.hero-banner-container .hero-banner-label-container .text h1,
+.hero-banner-container .hero-banner-infobox .text h2,
+.hero-banner-container .hero-banner-label-container .text h2,
+.hero-banner-container .hero-banner-infobox .text h3,
+.hero-banner-container .hero-banner-label-container .text h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #333333 !important;
+  background: none;
+  text-shadow: none;
+  opacity: 1;
+}
+.hero-banner-container .hero-banner-infobox .text h4,
+.hero-banner-container .hero-banner-label-container .text h4 {
+  color: #333333 !important;
+}
+.hero-banner-container .hero-banner-infobox .text h1,
+.hero-banner-container .hero-banner-label-container .text h1,
+.hero-banner-container .hero-banner-infobox .text h2,
+.hero-banner-container .hero-banner-label-container .text h2 {
+  font-weight: 200;
+  text-align: center;
+}
+.hero-banner-container .hero-banner-infobox .text h1,
+.hero-banner-container .hero-banner-label-container .text h1 {
+  font-size: 45px;
+  font-size: 3.2142857142857144rem;
+}
+.hero-banner-container .hero-banner-infobox .text h2,
+.hero-banner-container .hero-banner-label-container .text h2 {
+  font-size: 36px;
+  font-size: 2.5714285714285716rem;
+}
+.hero-banner-container .hero-banner-infobox .text h3,
+.hero-banner-container .hero-banner-label-container .text h3 {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  font-weight: 400;
+}
+.hero-banner-container .hero-banner-infobox .text p,
+.hero-banner-container .hero-banner-label-container .text p {
+  text-shadow: none;
+  background: none;
+  color: #333333;
+}
+.hero-banner-container .hero-banner-infobox .text p a,
+.hero-banner-container .hero-banner-label-container .text p a,
+.hero-banner-container .hero-banner-infobox .text a,
+.hero-banner-container .hero-banner-label-container .text a {
+  background-color: transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: inline;
+  padding: 0;
+  border-spacing: 0;
+  font-size: 16px;
+  font-size: 1.1428571428571428rem;
+  white-space: normal;
+  line-height: 1.428571429;
+  color: #8c1515;
+  text-shadow: none;
+}
+.text h3 {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  font-weight: 400;
+  color: #333333 !important;
+}
+.text h3.feature {
+  font-size: 30px;
+  font-size: 2.142857142857143rem;
+  font-weight: 200;
+  text-align: left;
+}
+.text h3.simple {
+  font-size: 18px;
+  font-size: 1.2857142857142858rem;
+  text-align: left;
+  font-weight: 400;
+}
+.text h3.modern {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* SM.K2.PanelBuilder: panel_builder.less */
+/******************** Style overrides for the K2 panel builder component *************************/
+.panel_builder .border-and-shadow {
+  border: medium none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=135,strength=3)";
+  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+/* SM.K2.HeroBanner: hero-banner.less */
+.hero-banner .hero-banner-container .hero-banner-label-container {
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* SM.Commons.Heading: base.less */
+/************************* CSS specific to STANDARD Class **********************************/
+.section-header h3 {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  font-weight: 400;
+}
+.section-header h3.additional-color {
+  color: #333333;
+}
+.section-header h3.additional-color.red {
+  color: #8c1515;
+}
+.section-header h3 + p {
+  font-size: 16px;
+  font-size: 1.1428571428571428rem;
+  font-style: normal;
+  color: #333333;
+}
+.section-header h3 > a,
+.section-header h3 > a:link,
+.section-header h3 > a:visited {
+  color: #8c1515;
+}
+.section-header.standard:after {
+  display: none;
+}
+.section-header.standard h1 {
+  font-size: 45px;
+  font-size: 3.2142857142857144rem;
+  font-weight: 200;
+  text-align: center;
+}
+.section-header.standard h1 + p {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+}
+.section-header.standard h2 {
+  font-size: 36px;
+  font-size: 2.5714285714285716rem;
+  font-weight: 200;
+  text-align: center;
+}
+.section-header.standard h2 + p {
+  font-size: 18px;
+  font-size: 1.2857142857142858rem;
+}
+.section-header.standard h1 + p,
+.section-header.standard h2 + p {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  font-style: normal;
+  color: #333333;
+}
+.section-header.standard h1.red,
+.section-header.standard h2.red,
+.section-header.standard h3.red {
+  color: #8c1515;
+}
+.section-header.standard h1 > a,
+.section-header.standard h2 > a,
+.section-header.standard h3 > a,
+.section-header.standard h1.black > a,
+.section-header.standard h2.black > a,
+.section-header.standard h3.black > a,
+.section-header.standard h1 > a:link,
+.section-header.standard h2 > a:link,
+.section-header.standard h3 > a:link,
+.section-header.standard h1.black > a:link,
+.section-header.standard h2.black > a:link,
+.section-header.standard h3.black > a:link,
+.section-header.standard h1 > a:visited,
+.section-header.standard h2 > a:visited,
+.section-header.standard h3 > a:visited,
+.section-header.standard h1.black > a:visited,
+.section-header.standard h2.black > a:visited,
+.section-header.standard h3.black > a:visited {
+  color: #8c1515;
+}
+/************************* CSS specific to FEATURE Class **********************************/
+.section-header.feature .heading-1-container h1,
+.section-header.feature .heading-1-container h2,
+.section-header.feature .heading-1-container h3 {
+  display: block;
+  padding-left: 0px;
+  padding-left: 0rem;
+  padding-right: 0px;
+  padding-right: 0rem;
+  max-width: 100%;
+  z-index: auto;
+}
+.section-header.feature .heading-1-container h1:before,
+.section-header.feature .heading-1-container h2:before,
+.section-header.feature .heading-1-container h3:before,
+.section-header.feature .heading-1-container h1:after,
+.section-header.feature .heading-1-container h2:after,
+.section-header.feature .heading-1-container h3:after {
+  display: none;
+}
+.section-header.feature .heading-1-container:after {
+  display: none;
+}
+.section-header.feature h2,
+.section-header.feature h2.black {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-size: 3.2142857142857144rem;
+  font-weight: 200;
+  color: #333333;
+}
+.section-header.feature h3,
+.section-header.feature h3.black {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  font-size: 2.142857142857143rem;
+  font-weight: 200;
+  color: #333333;
+  text-align: left;
+}
+.section-header.feature p.subheading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: #333333;
+}
+.section-header.feature.heading-level-2 p.subheading {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.section-header.feature.heading-level-3 p.subheading {
+  font-size: 18px;
+  font-size: 1.2857142857142858rem;
+  text-align: left;
+}
+.section-header.feature h1 > a,
+.section-header.feature h2 > a,
+.section-header.feature h3 > a,
+.section-header.feature h1.black > a,
+.section-header.feature h2.black > a,
+.section-header.feature h3.black > a,
+.section-header.feature h1 > a:link,
+.section-header.feature h2 > a:link,
+.section-header.feature h3 > a:link,
+.section-header.feature h1.black > a:link,
+.section-header.feature h2.black > a:link,
+.section-header.feature h3.black > a:link,
+.section-header.feature h1 > a:visited,
+.section-header.feature h2 > a:visited,
+.section-header.feature h3 > a:visited,
+.section-header.feature h1.black > a:visited,
+.section-header.feature h2.black > a:visited,
+.section-header.feature h3.black > a:visited {
+  color: #8c1515;
+}
+.section-header.feature h1.red,
+.section-header.feature h2.red,
+.section-header.feature h3.red {
+  color: #8c1515;
+}
+/************************* CSS specific to SIMPLE Class **********************************/
+.section-header.simple h2 {
+  border-bottom: medium none;
+  text-transform: none;
+  font-size: 30px;
+  font-size: 2.142857142857143rem;
+  color: #333333;
+  font-weight: 200;
+}
+.section-header.simple.heading-level-2 p.subheading {
+  font-size: 18px;
+  font-size: 1.2857142857142858rem;
+}
+.section-header.simple h3 {
+  border-bottom: medium none;
+  text-transform: none;
+  font-size: 18px;
+  font-size: 1.2857142857142858rem;
+  color: #333333;
+  font-weight: 400;
+}
+.section-header.simple.heading-level-3 p.subheading {
+  font-size: 14px;
+  font-size: 1rem;
+}
+.section-header.simple h1.red,
+.section-header.simple h2.red,
+.section-header.simple h3.red {
+  color: #8c1515;
+}
+.section-header.simple h1 > a,
+.section-header.simple h2 > a,
+.section-header.simple h3 > a,
+.section-header.simple h1.black > a,
+.section-header.simple h2.black > a,
+.section-header.simple h3.black > a,
+.section-header.simple h1 > a:link,
+.section-header.simple h2 > a:link,
+.section-header.simple h3 > a:link,
+.section-header.simple h1.black > a:link,
+.section-header.simple h2.black > a:link,
+.section-header.simple h3.black > a:link,
+.section-header.simple h1 > a:visited,
+.section-header.simple h2 > a:visited,
+.section-header.simple h3 > a:visited,
+.section-header.simple h1.black > a:visited,
+.section-header.simple h2.black > a:visited,
+.section-header.simple h3.black > a:visited {
+  color: #8c1515;
+}
+
+/* SM.K2.HeroBanner: hero-banner.less */
+.carousel .carousel-content-container .carousel-label-container {
+  background: #ffffff;
+}
+
+.block-list-item .block-list-li > .block-content h2:first-child,
+.block-list-item .block-list-li > .block-content h3:first-child {
+  margin-top: 0;
+}
+.block-list-item .block-list-li > .block-content h2 {
+  font-size: 30px;
+  font-size: 2.142857142857143rem;
+  font-weight: 200;
+  color: #333333;
+}
+.block-list-item .block-list-li > .block-content h3 {
+  font-size: 24px;
+  font-size: 1.7142857142857142rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+/* SM.K2: local.header.less */
+.global-nav-use-mobile:before {
+  display: none;
+}
+.global-nav-use-mobile .header-local .navbar-toggle {
+  display: block;
+  position: absolute;
+  right: 0;
+  margin: 0;
+  float: none;
+  z-index: 10;
+}
+.global-nav-use-mobile .header-global-offset {
+  margin-top: 0;
+}
+.global-nav-use-mobile .header-global {
+  height: 0;
+  min-height: 0;
+  right: 0;
+  left: auto;
+  width: auto;
+  background-color: transparent;
+}
+.global-nav-use-mobile.slide-right .header-global {
+  right: -260px;
+  right: -18.571428571428573rem;
+  height: auto;
+}
+.global-nav-use-mobile .navbar-global .nav {
+  position: absolute;
+  display: none;
+}
+.global-nav-use-mobile.slide-right .navbar-global .nav {
+  display: block;
+  position: static;
+}
+.brand-logo.brand-custom-logo {
+  background-image: none;
+}
+.brand-logo.brand-custom-logo .brand-custom-logo-image {
+  max-width: 177px;
+  max-width: 12.642857142857142rem;
+  max-height: 45px;
+  max-height: 3.2142857142857144rem;
+  display: block;
+}
+
+/* SM.K2: local.nav.less */
+.slide-right {
+  /* Hide the local-nav when in mobile/tablet mode */
+  /* Show the local-nav when in Desktop mode */
+}
+@media (max-width: 991px) {
+  .slide-right #mainContent .navbar-local {
+    display: none;
+  }
+  .slide-right .header-global .navbar-local {
+    display: block;
+  }
+}
+@media (min-width: 992px) {
+  .slide-right #mainContent .navbar-local {
+    display: block;
+  }
+  .slide-right .header-global .navbar-local {
+    display: none;
+  }
+}
+.slide-right .header-global .navbar-mobile .nav .nav-item > .nav-item-panel .related-container {
+  display: block;
+}
+.slide-right .header-global .navbar-mobile .nav .nav-item > .nav-item-panel .related-container .local-nav-related {
+  display: block;
+}
+/* END SM.K2: local.nav.less */
+

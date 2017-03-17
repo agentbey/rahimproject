@@ -1,0 +1,242 @@
+/* SM.Base: dropdown.nav.less **/
+/** LAYOUT STYLES **/
+.navbar-dropdown {
+  min-height: 0;
+  margin-bottom: 0;
+  border: none;
+  /* Transition animations */
+  /* Top Level */
+  /* 2nd Level - Dropdown Menus */
+}
+.navbar-dropdown .nav {
+  position: absolute;
+  display: none;
+}
+@media (min-width: 992px) {
+  .navbar-dropdown .nav {
+    position: relative;
+    display: block;
+  }
+}
+.navbar-dropdown .nav-item-panel,
+.navbar-dropdown .nav-item-panel .nav,
+.navbar-dropdown .nav-item-panel .section,
+.navbar-dropdown .nav-item-panel .nav-item,
+.navbar-dropdown .nav-item-panel .menu-box {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dropdown .nav-item {
+  height: 32px;
+  height: 2.2857142857142856rem;
+  float: left;
+}
+.navbar-dropdown .nav-item.hover > .nav-item-panel,
+.navbar-dropdown .nav-item.clicked > .nav-item-panel {
+  display: block;
+}
+.navbar-dropdown .nav-item-panel {
+  display: none;
+  position: absolute;
+  padding: 0px 25px 30px 15px;
+  padding: 0rem 1.7857142857142858rem 2.142857142857143rem 1.0714285714285714rem;
+  top: 34px;
+  top: 2.4285714285714284rem;
+  left: -16px;
+  left: -1.1428571428571428rem;
+  z-index: 9001;
+  /* 3rd Level - Flyout Menus */
+  /* 3rd Level - Flyout Menus, positioned right */
+}
+.navbar-dropdown .nav-item-panel:before,
+.navbar-dropdown .nav-item-panel:after {
+  content: " ";
+  display: table;
+}
+.navbar-dropdown .nav-item-panel:after {
+  clear: both;
+}
+.lt-ie8 .navbar-dropdown .nav-item-panel {
+  zoom: 1;
+}
+@media (max-width: 991px) {
+  .navbar-dropdown .nav-item-panel {
+    z-index: 1;
+  }
+}
+.navbar-dropdown .nav-item-panel section {
+  position: relative;
+  width: 320px;
+  width: 22.857142857142858rem;
+}
+.navbar-dropdown .nav-item-panel section:before,
+.navbar-dropdown .nav-item-panel section:after {
+  content: " ";
+  display: table;
+}
+.navbar-dropdown .nav-item-panel section:after {
+  clear: both;
+}
+.lt-ie8 .navbar-dropdown .nav-item-panel section {
+  zoom: 1;
+}
+.navbar-dropdown .nav-item-panel .nav {
+  float: none;
+}
+.navbar-dropdown .nav-item-panel .nav-item {
+  float: none;
+}
+.navbar-dropdown .nav-item-panel .nav-item.hover > .nav-item-panel,
+.navbar-dropdown .nav-item-panel .nav-item.clicked > .nav-item-panel {
+  display: block;
+}
+.navbar-dropdown .nav-item-panel .nav-item-panel {
+  position: absolute;
+  top: 0;
+  left: 270px;
+  left: 19.285714285714285rem;
+}
+.navbar-dropdown .nav-item-panel .nav-item.position-right .nav-item-panel .nav-item-panel {
+  top: 0;
+  right: 270px;
+  right: 19.285714285714285rem;
+}
+.navbar-dropdown .nav-item-panel .back {
+  display: none;
+}
+.navbar-dropdown .nav-item-search-panel {
+  display: block;
+  overflow: hidden;
+  height: 58px;
+  height: 4.142857142857143rem;
+  right: -24px;
+  right: -1.7142857142857142rem;
+  width: 320px;
+  width: 22.857142857142858rem;
+  z-index: 9000;
+  /* This z-index is required to float the menu above the CQ edit elements */
+}
+@media (max-width: 991px) {
+  .navbar-dropdown .nav-item-search-panel {
+    z-index: 1;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-dropdown .nav-item-search-panel {
+    height: 0;
+    width: 360px;
+    width: 25.714285714285715rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+}
+.navbar-dropdown .nav-item-search-panel form {
+  position: absolute;
+  bottom: 32px;
+  bottom: 2.2857142857142856rem;
+  left: 15px;
+  left: 1.0714285714285714rem;
+  width: 320px;
+  width: 22.857142857142858rem;
+  margin: 0;
+  padding: 12px;
+  padding: 0.8571428571428571rem;
+}
+.navbar-dropdown .nav-item-search-panel form .btn {
+  padding: 4px 9px 4px 9px;
+  padding: 0.2857142857142857rem 0.6428571428571429rem 0.2857142857142857rem 0.6428571428571429rem;
+}
+.no-cssremunit .navbar-local.navbar-dropdown > .nav > .nav-item > a .link-text-wrapper {
+  top: auto;
+}
+/* END SM.Base: dropdown.nav.less **/
+
+/* SM.Everest: local.nav.less */
+/* SM.Base: variables-nav.less */
+/* END SM.Base: variables-nav.less */
+/* Acordion Navigation Styles */
+.navbar-accordion {
+  margin-bottom: 12px;
+  margin-bottom: 0.8571428571428571rem;
+  padding: 0;
+  outline: 0;
+}
+.navbar-accordion.nav-has-search {
+  padding-top: 35px;
+  padding-top: 2.5rem;
+}
+.navbar-accordion button.nav-sub-menu {
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  text-indent: 0;
+  font-size: 10px;
+}
+.navbar-accordion .nav,
+.navbar-accordion .nav ul {
+  float: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-accordion > .nav {
+  /* First Level */
+}
+.navbar-accordion > .nav a {
+  position: relative;
+}
+.navbar-accordion > .nav .search-button {
+  display: none;
+}
+.navbar-accordion > .nav > li {
+  float: none;
+  /* Second Level */
+}
+.navbar-accordion > .nav > li a {
+  display: block;
+  position: relative;
+}
+.navbar-accordion > .nav > li > ul > li,
+.navbar-accordion > .nav > li > .nav-item-panel > section > ul > li {
+  float: none;
+  /* Third Level */
+}
+.navbar-accordion > .nav > li > ul > li > ul > li,
+.navbar-accordion > .nav > li > .nav-item-panel > section > ul > li > ul > li,
+.navbar-accordion > .nav > li > ul > li > .nav-item-panel > section > ul > li,
+.navbar-accordion > .nav > li > .nav-item-panel > section > ul > li > .nav-item-panel > section > ul > li {
+  float: none;
+}
+.navbar-accordion > .nav > li > ul,
+.navbar-accordion > .nav > li > ul > li > ul,
+.navbar-accordion > .nav > li > .nav-item-panel > section > ul,
+.navbar-accordion > .nav > li > .nav-item-panel > section > ul > li > .nav-item-panel > section > ul {
+  position: relative;
+}
+.navbar-accordion > .nav > li.last-child > a:after {
+  display: none;
+}
+.navbar-accordion > .nav > li:last-child > a:after,
+.navbar-accordion > .nav > li:last-child li:last-child > a:after,
+.navbar-accordion > .nav > li:last-child > a.collapsed:after {
+  display: none;
+}
+.navbar-accordion > .nav > li.search {
+  position: absolute;
+  top: 0;
+  height: 35px;
+  height: 2.5rem;
+}
+.navbar-accordion > .nav .has-children {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* END SM.Everest: local.nav.less */
+

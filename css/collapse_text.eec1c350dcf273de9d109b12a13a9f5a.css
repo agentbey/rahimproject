@@ -1,0 +1,5 @@
+
+a.collapse-link:hover, a.collapse-link:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
