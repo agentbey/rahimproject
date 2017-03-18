@@ -481,7 +481,7 @@ audio {
   margin-right: 10px;
   margin-right: 0.7142857142857143rem;
   text-indent: -9999px;
-  background: url(base/images/logo_uid_stanfordmedicine.svg) no-repeat;
+  background: url(../images/logo_uid_stanfordmedicine.svg) no-repeat;
   background-position: -11px -1px;
   background-position: -0.7857142857142857rem -0.07142857142857142rem;
   background-size: auto 111%;
@@ -500,7 +500,7 @@ audio {
   }
 }
 .no-svg .brand-logo {
-  background-image: url(base/images/logo_uid_stanfordmedicine.png);
+  background-image: url(/images/logo_uid_stanfordmedicine.png);
   background-position: 0 0;
   background-size: auto auto;
 }
