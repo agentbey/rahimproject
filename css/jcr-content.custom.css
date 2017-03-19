@@ -733,34 +733,46 @@ p a.arrow:not(:last-child) {
         margin-right: 17px;
     }
     .cdh-home-tabs .nav-tabs li:first-child .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-researching-real-solutions.jpg');
+        content: "\f002";
         height: 38px;
-        width: 21px;
+        width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
     }
     .cdh-home-tabs .nav-tabs li:nth-child(2) .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-disseminating-shared-learnings.jpg');
+        content: "\f201";
         height: 38px;
-        width: 50px;
+        width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
     }
     .cdh-home-tabs .nav-tabs li:nth-child(3) .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/off-giving-guidance.jpg');
+        content: "\f004";
         height: 38px;
         width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
     }
     .cdh-home-tabs .nav-tabs li.active:first-child .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-researching-real-solutions.jpg');
-        height: 38px;
-        width: 21px;
-    }
-    .cdh-home-tabs .nav-tabs li.active:nth-child(2) .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-disseminating-shared-learnings.jpg');
-        height: 38px;
-        width: 50px;
-    }
-    .cdh-home-tabs .nav-tabs li.active:nth-child(3) .tab-text .title::before {
-        content: url('http://med.stanford.edu/content/dam/sm/cdh/images/icons/on-giving-guidance.jpg');
+        content: "\f002";
         height: 38px;
         width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
+    }
+    .cdh-home-tabs .nav-tabs li.active:nth-child(2) .tab-text .title::before {
+        content: "\f201";
+        height: 38px;
+        width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
+    }
+    .cdh-home-tabs .nav-tabs li.active:nth-child(3) .tab-text .title::before {
+        content: "\f004";
+        height: 38px;
+        width: 33px;
+        font-family: 'FontAwesome';
+        padding: 11px;
     }
     .cdh-home-tabs .title {
         -webkit-box-align: center;
