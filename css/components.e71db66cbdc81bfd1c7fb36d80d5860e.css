@@ -81,11 +81,11 @@
   background-color: #999;
 }
 .byline .media .media-body .profile-popup {
-  color: #00008B;
+  color: #077ebd;
 }
 .byline .media .media-body .p-name {
   display: block;
-  color: #00008B;
+  color: #077ebd;
   text-transform: uppercase;
   margin-bottom: 4px;
 }
@@ -129,7 +129,7 @@
   background-color: #333333;
 }
 .sm-video-playlist.caption.background-color-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .sm-video-playlist.caption .video-playlist {
   overflow: hidden;
@@ -267,7 +267,7 @@
   background-color: #333333;
 }
 .sm-video.caption.background-color-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .sm-video.caption .video {
   overflow: hidden;
@@ -412,10 +412,10 @@
   outline: 0;
 }
 .timeline .media:hover .media-object {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .timeline .media:hover .media-object:before {
-  border-left-color: #00008B;
+  border-left-color: #077ebd;
 }
 .timeline .media:hover .media-heading {
   background-color: #dddddd;
@@ -574,26 +574,26 @@
   width: auto;
 }
 .timeline .media-content h4 {
-  color: #00008B;
+  color: #077ebd;
 }
 .timeline .media:first-child .media-content {
   margin-top: 0;
 }
 .timeline .media:focus .media-object {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .timeline .media:focus .media-object:before {
-  border-left-color: #00008B;
+  border-left-color: #077ebd;
 }
 .timeline .media.selected {
   /*---------------*/
   /*-------------------*/
 }
 .timeline .media.selected .media-object {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .timeline .media.selected .media-object:before {
-  border-left-color: #00008B;
+  border-left-color: #077ebd;
 }
 .timeline .media.selected .media-heading {
   position: relative;
@@ -690,7 +690,7 @@
   font-weight: normal;
   text-align: center;
   color: #ffffff;
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .everest-page .panel-builder-66-col .timeline .media.selected .media-content {
   float: none;
@@ -781,7 +781,7 @@
 .text-image .text h3 {
   font-size: 18px;
   font-size: 1.2857142857142858rem;
-  color: #00008B;
+  color: #077ebd;
   font-weight: 400;
 }
 .text-image .text h3:first-child {
@@ -827,7 +827,7 @@
   margin: 0.8571428571428571rem 0rem 0.8571428571428571rem 0rem;
 }
 .text h1 {
-  color: #00008B !important;
+  color: #077ebd !important;
   font-weight: 300 !important;
 }
 .text h2 {
@@ -855,7 +855,7 @@
 .text h3 {
   font-size: 18px;
   font-size: 1.2857142857142858rem;
-  color: #00008B !important;
+  color: #077ebd !important;
   font-weight: 400;
 }
 .text .paragraph-small {
@@ -1314,7 +1314,7 @@
 }
 .text blockquote.icon-bg-red:before {
   color: #ffffff;
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 /* END SM.Commons.Text: style.less */
 /* Sytles for headings placed inside of a dark color row */
@@ -2431,7 +2431,7 @@
 .color-row.stanford-red-bg .text blockquote:before,
 .border-and-shadow.stanford-red-bg .text blockquote:before {
   background-color: #ffffff;
-  color: #00008B;
+  color: #077ebd;
 }
 .color-row.stanford-red-bg .text blockquote.icon-bg-white:before,
 .border-and-shadow.stanford-red-bg .text blockquote.icon-bg-white:before,
@@ -2476,7 +2476,7 @@
 .color-row.stanford-red-bg .text blockquote.icon-bg-red:before,
 .border-and-shadow.stanford-red-bg .text blockquote.icon-bg-red:before {
   background-color: #ffffff;
-  color: #00008B;
+  color: #077ebd;
 }
 
 /* SM.Commons.TargetedSearch */
@@ -2863,7 +2863,7 @@
   background-color: #09425a;
 }
 .tabs .collapse-to-accordion.custom-tabs-1 .nav-tabs > li.active .tab-text {
-  color: #00008B;
+  color: #077ebd;
 }
 .tabs .collapse-to-accordion.custom-tabs-1 .nav-tabs > li.active .tab-text .title {
   font-weight: 400;
@@ -3142,11 +3142,11 @@
   }
 }
 .simple-banner .headerText.color-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 @media (max-width: 767px) {
   .simple-banner .headerText.color-8C1515 {
-    background-color: #00008B;
+    background-color: #077ebd;
   }
 }
 .simple-banner .headerText.color-AABEC6 {
@@ -3325,7 +3325,7 @@
   }
 }
 .simple-banner .simple-banner-caption.color-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
   background-color: rgba(140, 21, 21, 0.8);
   color: #ffffff;
 }
@@ -3353,7 +3353,7 @@
 }
 @media (max-width: 767px) {
   .simple-banner .simple-banner-caption.color-8C1515 {
-    background-color: #00008B;
+    background-color: #077ebd;
   }
 }
 .simple-banner .simple-banner-caption.color-8C1515 .link {
@@ -3370,7 +3370,7 @@
   }
 }
 .simple-banner .simple-banner-caption.color-FFFFFF h3 {
-  color: #00008B;
+  color: #077ebd;
 }
 .simple-banner .simple-banner-caption.color-FFFFFF .link a,
 .simple-banner .simple-banner-caption.color-FFFFFF .link a:visited,
@@ -3491,7 +3491,7 @@
 
 /* SM.Commons.HeroBanner: base.less */
 .search-results h3 {
-  color: #00008B;
+  color: #077ebd;
   font-weight: 400;
 }
 .search-results h2 {
@@ -4054,11 +4054,11 @@ ul.profiles-results .profile .person-info {
 .profile .name {
   font-size: 18px;
   font-size: 1.2857142857142858rem;
-  color: #00008B;
+  color: #077ebd;
   display: inline-block;
 }
 .profile .name a {
-  color: #00008B;
+  color: #077ebd;
 }
 .profile .dept {
   font-size: 14px;
@@ -4330,7 +4330,7 @@ ul.profiles-results .profile .person-info {
   background-color: transparent;
 }
 .color-row.stanford-red-bg:before {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .color-row .parsys {
   position: relative;
@@ -4674,7 +4674,7 @@ ul.news li.newsfeed-item.newswire:last-child div.col-sm-12.compact hr {
   list-style-type: none;
 }
 .news-builder .mcd h3 {
-  color: #00008B;
+  color: #077ebd;
 }
 .news-builder .mcd .right {
   text-align: right;
@@ -4690,7 +4690,7 @@ ul.news li.newsfeed-item.newswire:last-child div.col-sm-12.compact hr {
   list-style-type: none;
 }
 .news-builder .k2 h3 {
-  color: #00008B;
+  color: #077ebd;
 }
 .news-builder .k2 .right {
   text-align: right;
@@ -4846,7 +4846,7 @@ ul.news li.newsfeed-item.newswire:last-child div.col-sm-12.compact hr {
 .mfp-wrap .mfp-content .royalSlider .caption-container .caption h3 {
   margin: 0;
   font-size: 18;
-  color: #00008B !important;
+  color: #077ebd !important;
   font-weight: 400;
   margin-bottom: 6px;
   margin-bottom: 0.42857142857142855rem;
@@ -5201,7 +5201,7 @@ ul.news li.newsfeed-item.newswire:last-child div.col-sm-12.compact hr {
 }
 
 .map-container h3 {
-    color:#00008B;
+    color:#077ebd;
     margin-top: 0;
     margin-bottom: 5px;
     font-weight: 400;
@@ -5574,7 +5574,7 @@ div.search span.icon.type_zip {
   background-color: #333333;
 }
 .sm-image.caption.background-color-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .sm-image.caption .image {
   overflow: hidden;
@@ -5846,7 +5846,7 @@ div.image-full-width div.sm-image div.image img {
   text-shadow: 0.07142857142857rem 0.07142857142857rem 0.07142857142857rem #000;
   padding: 6px;
   padding: 0.42857142857142855rem;
-  background-color: #00008B;
+  background-color: #077ebd;
   font-family: 'Fjord One', serif;
   display: block;
   float: right;
@@ -6104,7 +6104,7 @@ div.image-full-width div.sm-image div.image img {
   }
 }
 .hero-banner-container .hero-banner-infobox h2 .hero-banner-more-link {
-  background-color: #00008B;
+  background-color: #077ebd;
   background-color: rgba(140, 21, 21, 0.8);
   z-index: 21;
   position: absolute;
@@ -6224,7 +6224,7 @@ div.image-full-width div.sm-image div.image img {
 }
 .hero-banner-container .hero-banner-infobox .text p a,
 .hero-banner-container .hero-banner-label-container .text p a {
-  background-color: #00008B;
+  background-color: #077ebd;
   background-color: rgba(140, 21, 21, 0.8);
   color: #ffffff;
   font-family: 'Fjord One', serif;
@@ -6448,7 +6448,7 @@ div.image-full-width div.sm-image div.image img {
 .section-header h1.additional-color,
 .section-header h2.additional-color,
 .section-header h3.additional-color {
-  color: #00008B;
+  color: #077ebd;
 }
 .section-header h1.red > a,
 .section-header h2.red > a,
@@ -6456,7 +6456,7 @@ div.image-full-width div.sm-image div.image img {
 .section-header h1.additional-color > a,
 .section-header h2.additional-color > a,
 .section-header h3.additional-color > a {
-  color: #00008B;
+  color: #077ebd;
 }
 .section-header h1.red > a:link,
 .section-header h2.red > a:link,
@@ -6476,7 +6476,7 @@ div.image-full-width div.sm-image div.image img {
 .section-header h1.additional-color > a:active,
 .section-header h2.additional-color > a:active,
 .section-header h3.additional-color > a:active {
-  color: #00008B;
+  color: #077ebd;
 }
 .section-header h2:after {
   display: none;
@@ -6485,7 +6485,7 @@ div.image-full-width div.sm-image div.image img {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-size: 1.2857142857142858rem;
-  color: #00008B;
+  color: #077ebd;
 }
 .section-header h3 + p {
   font-size: 16px;
@@ -10422,7 +10422,7 @@ div.image-full-width div.sm-image div.image img {
 .section-header.modern h1 > a:visited,
 .section-header.modern h2 > a:visited,
 .section-header.modern h3 > a:visited {
-  color: #00008B;
+  color: #077ebd;
 }
 /************************* CSS specific to BLOCK Class **********************************/
 .section-header.block {
@@ -11469,7 +11469,7 @@ div.image-full-width div.sm-image div.image img {
 .feed .full h3 a.active,
 .feed .snippet h3 a:visited,
 .feed .full h3 a:visited {
-  color: #00008B;
+  color: #077ebd;
 }
 .feed p {
   margin-bottom: 4px;
@@ -11649,7 +11649,7 @@ div.image-full-width div.sm-image div.image img {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 400;
-  background-color: #00008B;
+  background-color: #077ebd;
   text-align: center;
   font-size: 18px;
   font-size: 1.2857142857142858rem;
@@ -11660,7 +11660,7 @@ div.image-full-width div.sm-image div.image img {
   background-color: #333333;
 }
 .feature-box .feature-box-container h2.feature-box-main-heading.feature-box-heading-red {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .feature-box .feature-box-body {
   padding: 12px 12px 12px 12px;
@@ -11802,7 +11802,7 @@ div.image-full-width div.sm-image div.image img {
   display: none;
 }
 .feature-box .feature-box-layout-1.feature-box-container h2.feature-box-main-heading {
-  color: #00008B;
+  color: #077ebd;
   background-color: transparent;
   text-align: center;
   text-transform: none;
@@ -11850,7 +11850,7 @@ div.image-full-width div.sm-image div.image img {
   padding-top: 0;
 }
 .feature-box .feature-box-layout-3.feature-box-container h2.feature-box-main-heading {
-  color: #00008B;
+  color: #077ebd;
   background-color: transparent;
   text-align: left;
   text-transform: none;
@@ -12369,7 +12369,7 @@ div.image-full-width div.sm-image div.image img {
   }
 }
 .event-item .event-title {
-  color: #00008B;
+  color: #077ebd;
   font-weight: 400;
 }
 .event-item .event-subtitle {
@@ -12931,7 +12931,7 @@ div.image-full-width div.sm-image div.image img {
 .border-and-shadow .event .event-title,
 .event .event-title,
 .events .event-title {
-  color: #00008B;
+  color: #077ebd;
   font-weight: 400;
   margin-top: 7px;
   margin-top: 0.5rem;
@@ -13069,7 +13069,7 @@ div.image-full-width div.sm-image div.image img {
 .clinicaltrials-search .ct-show-more-btn {
   border: medium none;
   background-color: transparent;
-  color: #00008B;
+  color: #077ebd;
   font-size: 14px;
   font-size: 1rem;
   line-height: 14px;
@@ -13300,7 +13300,7 @@ div.image-full-width div.sm-image div.image img {
 }
 .clinical-trials-summary li .trial-title,
 .clinical-trials-compact li .trial-title {
-  color: #00008B;
+  color: #077ebd;
   margin-top: 0;
   margin-bottom: 6px;
   margin-bottom: 0.42857142857142855rem;
@@ -13474,10 +13474,10 @@ div.image-full-width div.sm-image div.image img {
   border-bottom: 1px solid #cccccc;
   margin-top: 0px;
   margin-top: 0rem;
-  color: #00008B;
+  color: #077ebd;
 }
 .clinicaltrials .clinical-trials-details h3.ct-heading {
-  color: #00008B;
+  color: #077ebd;
   margin-bottom: 2px;
   margin-bottom: 0.14285714285714285rem;
 }
@@ -13535,7 +13535,7 @@ div.image-full-width div.sm-image div.image img {
   text-align: center;
 }
 .clinicaltrials .clinical-trials-details .ct-side-box h3 {
-  color: #00008B;
+  color: #077ebd;
 }
 .clinicaltrials .clinical-trials-details .ct-side-box .RECRUITING:before,
 .clinicaltrials .clinical-trials-details .ct-side-box .NOT_RECRUITING:before {
@@ -13987,7 +13987,7 @@ ul.clinical-trials-conditions li ul li:after {
   background-color: #09425a;
 }
 .carousel .collapse-to-accordion.custom-tabs-1 .nav-tabs > li.active .tab-text {
-  color: #00008B;
+  color: #077ebd;
 }
 .carousel .collapse-to-accordion.custom-tabs-1 .nav-tabs > li.active .tab-text .title {
   font-weight: 400;
@@ -14413,11 +14413,11 @@ ul.clinical-trials-conditions li ul li:after {
   background-color: #333333;
 }
 .button .btn.simple.color-red {
-  color: #00008B;
+  color: #077ebd;
 }
 .button .btn.simple.color-red .btn-icon .fa,
 .button .btn.simple.color-red .btn-decoration {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .button .btn.simple.color-accent-purple {
   color: #53284f;
@@ -14529,11 +14529,11 @@ ul.clinical-trials-conditions li ul li:after {
 }
 .button .btn.standard.color-red .btn-decoration,
 .button .btn.standard.color-red .btn-icon .fa {
-  color: #00008B;
+  color: #077ebd;
 }
 .button .btn.standard.color-red .btn-text,
 .button .btn.standard.color-red .btn-icon {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .button .btn.standard.color-accent-purple .btn-decoration,
 .button .btn.standard.color-accent-purple .btn-icon .fa {
@@ -14615,10 +14615,10 @@ ul.clinical-trials-conditions li ul li:after {
   background-color: #333333;
 }
 .button .btn.white.color-red {
-  color: #00008B;
+  color: #077ebd;
 }
 .button .btn.white.color-red .btn-icon .fa {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .button .btn.white.color-accent-purple {
   color: #53284f;
@@ -14725,11 +14725,11 @@ ul.clinical-trials-conditions li ul li:after {
   background-color: #333333;
 }
 .button .btn.color-arrow.color-red {
-  color: #00008B;
+  color: #077ebd;
 }
 .button .btn.color-arrow.color-red .btn-icon .fa,
 .button .btn.color-arrow.color-red .btn-decoration {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .button .btn.color-arrow.color-accent-purple {
   color: #53284f;
@@ -14900,7 +14900,7 @@ ul.clinical-trials-conditions li ul li:after {
   font-size: 18px;
   font-size: 1.2857142857142858rem;
   text-transform: none;
-  color: #00008B;
+  color: #077ebd;
   font-weight: 400;
   margin-bottom: 5px;
   margin-bottom: 0.35714285714285715rem;
@@ -15460,7 +15460,7 @@ ul.clinical-trials-conditions li ul li:after {
 }
 /*COLOR PALETTE */
 .block-list-li .block-heading.hex-8C1515 {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .block-list-li .block-heading.hex-8C1515 h3 {
   color: #ffffff;
@@ -16028,7 +16028,7 @@ ul.clinical-trials-conditions li ul li:after {
   transform: rotate(180deg);
 }
 .accordion .panel {
-  background-color: #00008B;
+  background-color: #077ebd;
   border-bottom: solid 1px #660000;
   border-top: solid 1px #660000;
   border-left: none;
@@ -16074,7 +16074,7 @@ ul.clinical-trials-conditions li ul li:after {
   line-height: 1rem;
 }
 .accordion .panel .panel-heading .tab-text p.double-heading {
-  color: #00008B;
+  color: #077ebd;
   font-size: 18px;
   font-size: 1.2857142857142858rem;
   font-weight: 400;
@@ -16168,7 +16168,7 @@ ul.clinical-trials-conditions li ul li:after {
   color: #333333;
 }
 .accordion-container[class*="color-8c1515"] .panel {
-  background-color: #00008B;
+  background-color: #077ebd;
 }
 .accordion-container[class*="color-8c1515"] .panel .panel-heading a.bookmark,
 .accordion-container[class*="color-8c1515"] .panel .panel-heading a.bookmark:hover,

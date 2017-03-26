@@ -97,7 +97,7 @@ h2,
     text-align: left;
 }
 a, a:link, a:active, a.active, a:visited {
-    color: #00008B;
+    color: #077ebd;
 }
 a {
     font-family: 'OpenSans-Semibold', sans-serif;
@@ -461,7 +461,7 @@ p a.arrow:not(:last-child) {
 }
 
 .cdh-home-carousel .infobox-heading-wrapper .hero-banner-more-link span {
-    color: #00008B;
+    color: #077ebd;
     font-family: 'OpenSans-Semibold', sans-serif;
     font-size: 19px;
     line-height: 28px;
@@ -520,7 +520,7 @@ p a.arrow:not(:last-child) {
     margin: 25px 30px 37px 30px;
 }
 .cdh-home-overview .parbase.section.text h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 23px;
     line-height: 25px;
@@ -568,11 +568,11 @@ p a.arrow:not(:last-child) {
     width: 33px;
 }
 .cdh-home-accordion .panel-group .panel {
-    background-color: #00008B;
+    background-color: #077ebd;
 }
 
 .cdh-home-accordion.accordion-container .panel .panel-heading > [data-toggle=collapse]:hover, .cdh-home-accordion .panel .panel-heading > [data-toggle=collapse]:focus {
-    background-color: #00008B !important;
+    background-color: #077ebd !important;
 }
 .cdh-home-accordion.accordion-container .panel {
     border: none;
@@ -611,7 +611,7 @@ p a.arrow:not(:last-child) {
     margin-left: -10px;
     width: 0;
     height: 0;
-    border-top: solid 10px #00008B;
+    border-top: solid 10px #077ebd;
     border-left: solid 10px transparent;
     border-right: solid 10px transparent;
 }
@@ -693,7 +693,7 @@ p a.arrow:not(:last-child) {
     }
 
     .cdh-home-tabs li.active {
-        background-color: #00008B;
+        background-color: #077ebd;
     }
     .cdh-home-tabs li.active:after {
         content:'';
@@ -703,7 +703,7 @@ p a.arrow:not(:last-child) {
         margin-left: -10px;
         width: 0;
         height: 0;
-        border-top: solid 10px #00008B;
+        border-top: solid 10px #077ebd;
         border-left: solid 10px transparent;
         border-right: solid 10px transparent;
     }
@@ -836,7 +836,7 @@ p a.arrow:not(:last-child) {
     padding: 0;
 }
 .cdh-home-connect .parbase.section.text h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 23px;
     line-height: 25px;
@@ -900,7 +900,7 @@ p a.arrow:not(:last-child) {
 }
 
 .cdh-home-connect .panel-builder-50-col.panel-builder-right {
-    background-color: #00008B;
+    background-color: #077ebd;
 }
 
 
@@ -954,7 +954,7 @@ p a.arrow:not(:last-child) {
     margin: 35px 57px 40px 57px;
 }
 .cdh-home-team .parbase.section.text h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 22px;
     line-height: 25px;
@@ -1085,7 +1085,7 @@ p a.arrow:not(:last-child) {
     margin: 35px 0 30px 0;
 }
 .cdh-home-news .parbase.section.text h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 22px;
     line-height: 25px;
@@ -1194,10 +1194,6 @@ ul.news li.newsfeed-item > div {
 
 /* Donate
 ========================================================================== */
-
-.cdh-home-donate .col-sm-12  {
-    background-image: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/mobile/donate-min.jpg');
-}
 .cdh-home-donate .parbase.section.text div {
     margin: 32px 12px;
 }
@@ -1227,7 +1223,7 @@ ul.news li.newsfeed-item > div {
 }
 @media (min-width: 992px) {
     .cdh-home-donate .col-sm-12  {
-        background-image: url('http://med.stanford.edu/content/dam/sm/cdh/images/backgrounds/desktop/donate-min.jpg');
+        background-color: #077ebd;
     }
     .cdh-home-donate .parbase.section.text div {
         margin: 84px 10%;
@@ -1279,7 +1275,7 @@ ul.news li.newsfeed-item > div {
 }
 .cdh-main-banner .parbase.section.text,
 .cdh-main-banner .section.text-image .text-image.row {
-    background-color: #00008B;
+    background-color: #077ebd;
     position: relative;
 }
 .cdh-main-banner .parbase.section.text h1,
@@ -1431,7 +1427,7 @@ ul.news li.newsfeed-item > div {
 
 
 .cdh-home-carousel .infobox-heading-wrapper h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 22px;
     line-height: 25px;
@@ -1491,7 +1487,7 @@ ul.news li.newsfeed-item > div {
 }
 
 .cdh-home-opportunities h1 {
-    color: #00008B !important;
+    color: #077ebd !important;
     font-family: 'OpenSans', sans-serif;
     font-size: 22px;
     line-height: 25px;
