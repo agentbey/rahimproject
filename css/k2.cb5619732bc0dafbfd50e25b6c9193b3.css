@@ -91,7 +91,7 @@
   font-size: 1.1428571428571428rem;
   white-space: normal;
   line-height: 1.428571429;
-  color: #8c1515;
+  color: #00008B;
   text-shadow: none;
 }
 .text h3 {
@@ -146,7 +146,7 @@
   color: #333333;
 }
 .section-header h3.additional-color.red {
-  color: #8c1515;
+  color: #00008B;
 }
 .section-header h3 + p {
   font-size: 16px;
@@ -157,7 +157,7 @@
 .section-header h3 > a,
 .section-header h3 > a:link,
 .section-header h3 > a:visited {
-  color: #8c1515;
+  color: #00008B;
 }
 .section-header.standard:after {
   display: none;
@@ -195,7 +195,7 @@
 .section-header.standard h1.red,
 .section-header.standard h2.red,
 .section-header.standard h3.red {
-  color: #8c1515;
+  color: #00008B;
 }
 .section-header.standard h1 > a,
 .section-header.standard h2 > a,
@@ -215,7 +215,7 @@
 .section-header.standard h1.black > a:visited,
 .section-header.standard h2.black > a:visited,
 .section-header.standard h3.black > a:visited {
-  color: #8c1515;
+  color: #00008B;
 }
 /************************* CSS specific to FEATURE Class **********************************/
 .section-header.feature .heading-1-container h1,
@@ -294,12 +294,12 @@
 .section-header.feature h1.black > a:visited,
 .section-header.feature h2.black > a:visited,
 .section-header.feature h3.black > a:visited {
-  color: #8c1515;
+  color: #00008B;
 }
 .section-header.feature h1.red,
 .section-header.feature h2.red,
 .section-header.feature h3.red {
-  color: #8c1515;
+  color: #00008B;
 }
 /************************* CSS specific to SIMPLE Class **********************************/
 .section-header.simple h2 {
@@ -329,7 +329,7 @@
 .section-header.simple h1.red,
 .section-header.simple h2.red,
 .section-header.simple h3.red {
-  color: #8c1515;
+  color: #00008B;
 }
 .section-header.simple h1 > a,
 .section-header.simple h2 > a,
@@ -349,7 +349,7 @@
 .section-header.simple h1.black > a:visited,
 .section-header.simple h2.black > a:visited,
 .section-header.simple h3.black > a:visited {
-  color: #8c1515;
+  color: #00008B;
 }
 
 /* SM.K2.HeroBanner: hero-banner.less */
@@ -449,4 +449,3 @@
   display: block;
 }
 /* END SM.K2: local.nav.less */
-

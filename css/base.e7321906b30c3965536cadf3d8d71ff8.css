@@ -209,7 +209,7 @@ audio {
   line-height: 1rem;
   padding: 10px 10px 1px 10px;
   padding: 0.7142857142857143rem 0.7142857142857143rem 0.07142857142857142rem 0.7142857142857143rem;
-  background-color: #8c1515;
+  background-color: #00008B;
   position: relative;
 }
 .emergency-broadcast a,
@@ -779,7 +779,7 @@ html {
 }
 .stanford-red-bg,
 .stanford-red-bg.border-and-shadow {
-  background-color: #8c1515;
+  background-color: #00008B;
 }
 .section {
   margin-bottom: 12px;
@@ -1296,7 +1296,7 @@ html {
 /** TYPOGRAPHY STYLES **/
 .footer-local .super-footer,
 .footer-local .rich-footer {
-  background-color: #8c1515;
+  background-color: #00008B;
   color: #ffffff;
   width: 100%;
   float: left;
@@ -1420,11 +1420,11 @@ html {
 .footer-local .super-footer .link-social a,
 .footer-local .rich-footer .link-social a {
   color: #999999;
-  background-color: #8c1515;
+  background-color: #00008B;
 }
 .footer-local .super-footer .social-links .fa,
 .footer-local .rich-footer .social-links .fa {
-  color: #8c1515;
+  color: #00008B;
   background-color: #999999;
 }
 .footer-local .super-footer .social-links .fa:hover,
@@ -1870,7 +1870,7 @@ html {
   color: #fff;
   padding: 10px;
   padding: 0.7142857142857143rem;
-  background-color: #8c1515;
+  background-color: #00008B;
   font-style: normal;
 }
 
@@ -1888,7 +1888,7 @@ html {
 .image-box .image-caption {
   padding: 10px;
   padding: 0.7142857142857143rem;
-  background-color: #8c1515;
+  background-color: #00008B;
   color: #fff;
   font-size: 12px;
   font-size: 0.8571428571428571rem;
