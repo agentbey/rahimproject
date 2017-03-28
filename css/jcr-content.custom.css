@@ -503,8 +503,8 @@ p a.arrow:not(:last-child) {
 }
 @media (min-width: 1440px) {
     .cdh-home-hero h2 {
-        font-size: 62px;
-        line-height: 84px;
+        font-size: 52px;
+        line-height: 60px;
         margin-bottom: 50px;
     }
     .cdh-home-hero p {
